@@ -66,7 +66,7 @@ export function AddUserScreen({ navigation }: Props) {
   }, [name, email, phone, website]);
 
   const onSubmit = async () => {
-    setSubmitted(true); // 👈 trigger validation
+    setSubmitted(true); // trigger validation
 
     if (!canSubmit) return;
 

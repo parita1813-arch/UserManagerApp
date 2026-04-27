@@ -10,7 +10,7 @@ type Props = {
   autoCapitalize?: 'none' | 'sentences' | 'words' | 'characters';
   maxLength?: number;
   error?: string;
-  isNumeric?: boolean; // 👈 for phone input
+  isNumeric?: boolean; // for phone input
 };
 
 export function TextField({
