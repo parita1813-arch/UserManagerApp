@@ -43,7 +43,7 @@ export function TextField({
         placeholder={placeholder}
         style={[
           styles.input,
-          error ? styles.inputError : null, // 👈 red border if error
+          error ? styles.inputError : null, // red border if error
         ]}
         keyboardType={keyboardType}
         autoCapitalize={autoCapitalize}
